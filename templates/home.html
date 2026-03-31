@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: transform 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .features {
+            padding: 80px 20px;
+            background: white;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .feature {
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            color: #666;
+        }
+
+        .about {
+            padding: 80px 20px;
+            background: #f4f6f8;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .contact {
+            padding: 80px 20px;
+            background: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .contact p {
+            font-size: 1.1em;
+            margin-bottom: 50px;
+            color: #666;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .contact-item {
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .contact-item p {
+            color: #666;
+            margin: 0;
+        }
+
+        .testimonials {
+            padding: 80px 20px;
+            background: #f4f6f8;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .testimonial {
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .testimonial cite {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .footer {
+            padding: 40px 20px;
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .heart-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="heart-icon">❤️</div>
+        <h1>Heart Disease Prediction</h1>
+        <p>Advanced machine learning-powered tool to assess heart disease risk based on medical parameters. Get instant, accurate predictions to support early intervention and better health outcomes.</p>
+        <a href="/predict" class="btn">Start Prediction</a>
+        <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;">Or wait, you'll be redirected automatically...</p>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Our Tool?</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>🔬 Advanced AI</h3>
+                <p>Powered by state-of-the-art machine learning algorithms trained on extensive medical datasets for reliable predictions.</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Instant Results</h3>
+                <p>Get immediate risk assessment results with detailed probability scores in seconds.</p>
+            </div>
+            <div class="feature">
+                <h3>🛡️ Privacy First</h3>
+                <p>All data processing happens locally. Your medical information stays secure and private.</p>
+            </div>
+            <div class="feature">
+                <h3>📱 Responsive Design</h3>
+                <p>Access the tool seamlessly on any device - desktop, tablet, or mobile.</p>
+            </div>
+            <div class="feature">
+                <h3>🎯 High Accuracy</h3>
+                <p>Validated model with high precision and recall rates for trustworthy health insights.</p>
+            </div>
+            <div class="feature">
+                <h3>💡 Easy to Use</h3>
+                <p>Simple, intuitive interface requiring no technical expertise to get started.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Heart Disease Prediction</h2>
+        <p>Heart disease remains one of the leading causes of mortality worldwide. Early detection and risk assessment are crucial for prevention and timely treatment. Our web application uses machine learning to analyze key health indicators and provide personalized risk evaluations.</p>
+        <p>The model considers factors such as age, gender, blood pressure, cholesterol levels, and other cardiac markers to deliver comprehensive health insights. While this tool provides valuable screening information, it should complement, not replace, professional medical advice and consultation.</p>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Users Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>"This tool helped me understand my heart health better. The predictions are accurate and the interface is user-friendly."</p>
+                <cite>- Dr. Sarah Johnson, Cardiologist</cite>
+            </div>
+            <div class="testimonial">
+                <p>"As a patient, I found this incredibly helpful for monitoring my risk factors. Highly recommend!"</p>
+                <cite>- Michael Chen, Patient</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Great educational tool for medical students. Shows real-world application of machine learning in healthcare."</p>
+                <cite>- Prof. Emily Davis, Medical Educator</cite>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Get In Touch</h2>
+        <p>Have questions about the tool or need assistance? We're here to help!</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>📧 Email</h3>
+                <p>support@heartprediction.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>📞 Phone</h3>
+                <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="contact-item">
+                <h3>🌐 Website</h3>
+                <p>www.heartprediction.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Heart Disease Prediction. Built with Flask and Machine Learning.</p>
+        <p>For educational and informational purposes only. Not a substitute for professional medical advice.</p>
+    </footer>
+
+    <script>
+        // Auto redirect to prediction page after 5 seconds
+        setTimeout(function() {
+            window.location.href = '/predict';
+        }, 5000);
+    </script>
+
+</body>
+
+</html>
